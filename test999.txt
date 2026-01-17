@@ -12,9 +12,9 @@ local redzlib = {
 	Themes = {
 		Darker = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(18, 18, 18)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(18, 18, 18)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(18, 18, 18))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 255, 255)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))
 			}),
 			["Color Hub 2"] = Color3.fromRGB(0, 0, 0),
 			["Color Stroke"] = Color3.fromRGB(115, 115, 115),
@@ -717,7 +717,7 @@ function redzlib:MakeWindow(Configs)
     Size = UDim2.fromOffset(UISizeX, UISizeY),
     Position = UDim2.new(0.5, -UISizeX/2, 0.5, -UISizeY/2),
     BackgroundTransparency = 1, -- deixe transparente se tiver fundo de imagem
-    Image = "rbxassetid://78094982005605", -- AQUI O FUNDO
+    Image = "rbxassetid://136210276567718", -- AQUI O FUNDO
     ScaleType = Enum.ScaleType.Crop,     -- Ajusta a escala da imagem
     Name = "Hub"
 }), "Main")
@@ -2104,6 +2104,7 @@ end
 end
 
 return redzlib
+
 
 
 
